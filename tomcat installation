@@ -6,3 +6,4 @@
  # netstat -ntpl { # sudo yum -y install net-tools }
 # ps -ef | grep tomcat
 #if u chenge the user id &manger id that in ( cd tomcat7/conf/tomcat user.xml)
+#if u want chenge tomcat port number (cd /tomcat7/conf/server.xml)
