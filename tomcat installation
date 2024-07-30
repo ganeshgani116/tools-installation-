@@ -1,0 +1,8 @@
+# wget https://archive.apache.org/dist/tomcat/tomcat-7/v7.0.105/bin/apache-tomcat-7.0.105.tar.gz
+# tar xvf apache-tomcat-7.0.105.tar.gz
+# cd apache-tomcat-7.0.105/bin
+# ./startup.sh
+# Check for port to be opened in firewall
+ # netstat -ntpl { # sudo yum -y install net-tools }
+# ps -ef | grep tomcat
+#if u chenge the user id &manger id that in ( cd tomcat7/conf/tomcat user.xml)
