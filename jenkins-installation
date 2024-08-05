@@ -4,7 +4,7 @@ sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
   https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
 
 sudo apt-get update
-
+#ubuntu user
 sudo apt install fontconfig openjdk-17-jre
 #ec2-user
 ( sudo yum install java-17-amazon-corretto-devel )
