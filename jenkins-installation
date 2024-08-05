@@ -6,6 +6,8 @@ sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
 sudo apt-get update
 
 sudo apt install fontconfig openjdk-17-jre
+#ec2-user
+( sudo yum install java-17-amazon-corretto-devel )
 
 sudo apt-get install jenkins
 
