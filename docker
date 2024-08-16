@@ -32,3 +32,28 @@ sudo usermod -aG docker ubuntu
 docker build -t -image:latest .
 
 
+#if want pull image from  docker repository 
+
+docker run <iamge name>  (if you create image through "run" it autometically container creted it self)
+
+docker pull <iamge name>  (pull is created only image only)
+
+
+#how to check docker image's  
+docker images
+
+#how to check docker containers
+docker ps (it showing running conatiner )
+docker ps -a )it showing total containers)
+
+#how to check docker image's 
+docker search <image>
+
+#IF YOU WANT CREATE CONTSINER THROUGH IMAGE 
+docker run -it <image name>
+docker run -dt <image name>
+
+
+
+
+
