@@ -1,1 +1,30 @@
+#What is Docker ?
+(Docker is a containerization platform that provides easy way to containerize your applications, which means, using Docker you can build container images,
+run the images to create containers and also push these containers to container regestries such as DockerHub, Quay.io and so on.)
+
+
+#Docker LifeCycle
+We can use the above Image as reference to understand the lifecycle of Docker.
+
+There are three important things,
+
+1.docker build -> builds docker images from Dockerfile
+2.docker run -> runs container  from docker images
+3.docker push -> push the container image to public/private regestries to share the docker images.
+
+
+
+#INSTALL DOCKER
+A very detailed instructions to install Docker are provide in the below link
+
+https://docs.docker.com/get-docker/
+
+For Demo,
+
+You can create an Ubuntu EC2 Instance on AWS and run the below commands to install docker.
+
+sudo apt update
+sudo apt install docker.io -y 
+
+
 
