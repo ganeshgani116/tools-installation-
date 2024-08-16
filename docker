@@ -28,5 +28,7 @@ sudo apt install docker.io -y
 sudo systemctl status docker
 sudo systemctl start docker
 sudo usermod -aG docker ubuntu
+ #BUILD IAMAGE COMMAND 
+docker build -t -image:latest .
 
 
